@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/cliprow/swag/testdata/generics_nested/api"
+	"github.com/clipcrow/swag/testdata/generics_nested/api"
 )
 
 // @title Swagger Example API

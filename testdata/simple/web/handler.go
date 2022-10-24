@@ -3,7 +3,7 @@ package web
 import (
 	"time"
 
-	"github.com/cliprow/swag/testdata/simple/cross"
+	"github.com/clipcrow/swag/testdata/simple/cross"
 	"github.com/gofrs/uuid"
 	"github.com/shopspring/decimal"
 )

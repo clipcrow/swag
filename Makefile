@@ -13,7 +13,7 @@ GOPATH:=$(shell $(GOCMD) env GOPATH)
 u := $(if $(update),-u)
 
 BINARY_NAME:=swag
-PACKAGES:=$(shell $(GOLIST) github.com/cliprow/swag github.com/cliprow/swag/cmd/swag github.com/cliprow/swag/gen github.com/cliprow/swag/format)
+PACKAGES:=$(shell $(GOLIST) github.com/clipcrow/swag github.com/clipcrow/swag/cmd/swag github.com/clipcrow/swag/gen github.com/clipcrow/swag/format)
 GOFILES:=$(shell find . -name "*.go" -type f)
 
 export GO111MODULE := on

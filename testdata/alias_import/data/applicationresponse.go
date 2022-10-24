@@ -1,7 +1,7 @@
 package data
 
 import (
-	typesapplication "github.com/cliprow/swag/testdata/alias_import/types"
+	typesapplication "github.com/clipcrow/swag/testdata/alias_import/types"
 )
 
 type ApplicationResponse struct {

@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/cliprow/swag/testdata/generics_names/types"
-	"github.com/cliprow/swag/testdata/generics_names/web"
+	"github.com/clipcrow/swag/testdata/generics_names/types"
+	"github.com/clipcrow/swag/testdata/generics_names/web"
 )
 
 // @Summary Add a new pet to the store

@@ -1,9 +1,10 @@
 package api
 
 import (
-	"github.com/cliprow/swag/testdata/generics_property/types"
-	"github.com/cliprow/swag/testdata/generics_property/web"
 	"net/http"
+
+	"github.com/clipcrow/swag/testdata/generics_property/types"
+	"github.com/clipcrow/swag/testdata/generics_property/web"
 )
 
 type NestedResponse struct {

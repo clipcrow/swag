@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/cliprow/swag/example/basic/api"
-	"github.com/cliprow/swag/testdata/invalid_external_pkg/invalid"
+	"github.com/clipcrow/swag/example/basic/api"
+	"github.com/clipcrow/swag/testdata/invalid_external_pkg/invalid"
 )
 
 // @title Swagger Example API

@@ -1,13 +1,13 @@
-module github.com/cliprow/swag/example/celler
+module github.com/clipcrow/swag/example/celler
 
 go 1.17
 
 require (
 	github.com/gin-gonic/gin v1.7.7
 	github.com/gofrs/uuid v4.2.0+incompatible
-	github.com/cliprow/files v0.0.0-20210815190702-a29dd2bc99b2
-	github.com/cliprow/gin-swagger v1.4.2
-	github.com/cliprow/swag v1.8.1
+	github.com/clipcrow/files v0.0.0-20210815190702-a29dd2bc99b2
+	github.com/clipcrow/gin-swagger v1.4.2
+	github.com/clipcrow/swag v1.8.1
 )
 
 require (

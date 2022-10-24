@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/cliprow/swag/testdata/nested2"
+	"github.com/clipcrow/swag/testdata/nested2"
 )
 
 type Foo struct {

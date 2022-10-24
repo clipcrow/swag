@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/cliprow/swag/example/object-map-example/controller"
-	_ "github.com/cliprow/swag/example/object-map-example/docs"
+	"github.com/clipcrow/swag/example/object-map-example/controller"
+	_ "github.com/clipcrow/swag/example/object-map-example/docs"
 	"github.com/gin-gonic/gin"
 
-	swaggerFiles "github.com/cliprow/files"
-	ginSwagger "github.com/cliprow/gin-swagger"
+	swaggerFiles "github.com/clipcrow/files"
+	ginSwagger "github.com/clipcrow/gin-swagger"
 )
 
 // @title Swagger Map Example API

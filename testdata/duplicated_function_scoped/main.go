@@ -3,8 +3,8 @@ package composition
 import (
 	"net/http"
 
-	"github.com/cliprow/swag/testdata/duplicated_function_scoped/api"
-	otherapi "github.com/cliprow/swag/testdata/duplicated_function_scoped/other_api"
+	"github.com/clipcrow/swag/testdata/duplicated_function_scoped/api"
+	otherapi "github.com/clipcrow/swag/testdata/duplicated_function_scoped/other_api"
 )
 
 // @title Swagger Example API

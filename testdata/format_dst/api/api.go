@@ -3,7 +3,7 @@ package api
 import (
 	"net/http"
 
-	_ "github.com/cliprow/swag/testdata/simple/web"
+	_ "github.com/clipcrow/swag/testdata/simple/web"
 )
 
 // @Summary      Add a new pet to the store

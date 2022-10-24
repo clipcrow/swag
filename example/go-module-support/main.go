@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/cliprow/examples/go-module-support/api" // included package from external
+	"github.com/clipcrow/examples/go-module-support/api" // included package from external
 	"github.com/gin-gonic/gin"
 )
 

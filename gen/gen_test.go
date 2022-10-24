@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cliprow/swag"
+	"github.com/clipcrow/swag"
 	"github.com/go-openapi/spec"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -225,7 +225,7 @@ func TestGen_BuildDescriptionWithQuotes(t *testing.T) {
 		}
 	}
 
-	cmd := exec.Command("go", "build", "-buildmode=plugin", "github.com/cliprow/swag/testdata/quotes")
+	cmd := exec.Command("go", "build", "-buildmode=plugin", "github.com/clipcrow/swag/testdata/quotes")
 
 	cmd.Dir = config.SearchDir
 

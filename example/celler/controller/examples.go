@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/cliprow/swag/example/celler/httputil"
+	"github.com/clipcrow/swag/example/celler/httputil"
 	"github.com/gin-gonic/gin"
 )
 

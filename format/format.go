@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cliprow/swag"
+	"github.com/clipcrow/swag"
 )
 
 // Format implements `fmt` command for formatting swag comments in Go source

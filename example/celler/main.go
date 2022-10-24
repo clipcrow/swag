@@ -4,13 +4,13 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/cliprow/swag/example/celler/controller"
-	_ "github.com/cliprow/swag/example/celler/docs"
-	"github.com/cliprow/swag/example/celler/httputil"
+	"github.com/clipcrow/swag/example/celler/controller"
+	_ "github.com/clipcrow/swag/example/celler/docs"
+	"github.com/clipcrow/swag/example/celler/httputil"
 	"github.com/gin-gonic/gin"
 
-	swaggerFiles "github.com/cliprow/files"
-	ginSwagger "github.com/cliprow/gin-swagger"
+	swaggerFiles "github.com/clipcrow/files"
+	ginSwagger "github.com/clipcrow/gin-swagger"
 )
 
 // @title           Swagger Example API

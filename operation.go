@@ -24,7 +24,7 @@ type RouteProperties struct {
 }
 
 // Operation describes a single API operation on a path.
-// For more information: https://github.com/cliprow/swag#api-operation
+// For more information: https://github.com/clipcrow/swag#api-operation
 type Operation struct {
 	parser              *Parser
 	codeExampleFilesDir string

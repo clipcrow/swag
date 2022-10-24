@@ -2,16 +2,16 @@
 
 🌍 _[English](README.md) ∙ [简体中文](README_zh-CN.md)_
 
-<img align="right" width="180px" src="https://raw.githubusercontent.com/cliprow/swag/master/assets/cliprow.png">
+<img align="right" width="180px" src="https://raw.githubusercontent.com/clipcrow/swag/master/assets/clipcrow.png">
 
-[![Build Status](https://github.com/cliprow/swag/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/features/actions)
-[![Coverage Status](https://img.shields.io/codecov/c/github/cliprow/swag/master.svg)](https://codecov.io/gh/cliprow/swag)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cliprow/swag)](https://goreportcard.com/report/github.com/cliprow/swag)
-[![codebeat badge](https://codebeat.co/badges/71e2f5e5-9e6b-405d-baf9-7cc8b5037330)](https://codebeat.co/projects/github-com-cliprow-swag-master)
-[![Go Doc](https://godoc.org/github.com/cliprow/swagg?status.svg)](https://godoc.org/github.com/cliprow/swag)
+[![Build Status](https://github.com/clipcrow/swag/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/features/actions)
+[![Coverage Status](https://img.shields.io/codecov/c/github/clipcrow/swag/master.svg)](https://codecov.io/gh/clipcrow/swag)
+[![Go Report Card](https://goreportcard.com/badge/github.com/clipcrow/swag)](https://goreportcard.com/report/github.com/clipcrow/swag)
+[![codebeat badge](https://codebeat.co/badges/71e2f5e5-9e6b-405d-baf9-7cc8b5037330)](https://codebeat.co/projects/github-com-clipcrow-swag-master)
+[![Go Doc](https://godoc.org/github.com/clipcrow/swagg?status.svg)](https://godoc.org/github.com/clipcrow/swag)
 [![Backers on Open Collective](https://opencollective.com/swag/backers/badge.svg)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/swag/sponsors/badge.svg)](#sponsors) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcliprow%2Fswag.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcliprow%2Fswag?ref=badge_shield)
-[![Release](https://img.shields.io/github/release/cliprow/swag.svg?style=flat-square)](https://github.com/cliprow/swag/releases)
+[![Sponsors on Open Collective](https://opencollective.com/swag/sponsors/badge.svg)](#sponsors) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fclipcrow%2Fswag.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fclipcrow%2Fswag?ref=badge_shield)
+[![Release](https://img.shields.io/github/release/clipcrow/swag.svg?style=flat-square)](https://github.com/clipcrow/swag/releases)
 
 Swag converts Go annotations to Swagger Documentation 2.0. We've created a variety of plugins for popular [Go web frameworks](#supported-web-frameworks). This allows you to quickly integrate with an existing Go project (using Swagger UI).
 
@@ -53,12 +53,12 @@ Swag converts Go annotations to Swagger Documentation 2.0. We've created a varie
 2. Download swag by using:
 
 ```sh
-$ go install github.com/cliprow/swag/cmd/swag@latest
+$ go install github.com/clipcrow/swag/cmd/swag@latest
 ```
 
 To build from source you need [Go](https://golang.org/dl/) (1.16 or newer).
 
-Or download a pre-compiled binary from the [release page](https://github.com/cliprow/swag/releases).
+Or download a pre-compiled binary from the [release page](https://github.com/clipcrow/swag/releases).
 
 3. Run `swag init` in the project's root folder which contains the `main.go` file. This will parse your comments and generate the required files (`docs` folder and `docs/docs.go`).
 
@@ -104,7 +104,7 @@ OPTIONS:
    --requiredByDefault                    Set validation required for all fields by default (default: false)
    --parseDepth value                     Dependency parse depth (default: 100)
    --instanceName value                   This parameter can be used to name different swagger document instances. It is optional.
-   --overridesFile value                  File to read global type overrides from. (default: ".cliprow")
+   --overridesFile value                  File to read global type overrides from. (default: ".clipcrow")
    --help, -h                             show help (default: false)
 ```
 
@@ -126,25 +126,25 @@ OPTIONS:
 
 ## Supported Web Frameworks
 
-- [gin](http://github.com/cliprow/gin-swagger)
-- [echo](http://github.com/cliprow/echo-swagger)
-- [buffalo](https://github.com/cliprow/buffalo-swagger)
-- [net/http](https://github.com/cliprow/http-swagger)
-- [gorilla/mux](https://github.com/cliprow/http-swagger)
-- [go-chi/chi](https://github.com/cliprow/http-swagger)
+- [gin](http://github.com/clipcrow/gin-swagger)
+- [echo](http://github.com/clipcrow/echo-swagger)
+- [buffalo](https://github.com/clipcrow/buffalo-swagger)
+- [net/http](https://github.com/clipcrow/http-swagger)
+- [gorilla/mux](https://github.com/clipcrow/http-swagger)
+- [go-chi/chi](https://github.com/clipcrow/http-swagger)
 - [flamingo](https://github.com/i-love-flamingo/swagger)
 - [fiber](https://github.com/gofiber/swagger)
 - [atreugo](https://github.com/Nerzal/atreugo-swagger)
 
 ## How to use it with Gin
 
-Find the example source code [here](https://github.com/cliprow/swag/tree/master/example/celler).
+Find the example source code [here](https://github.com/clipcrow/swag/tree/master/example/celler).
 
 1. After using `swag init` to generate Swagger 2.0 docs, import the following packages:
 
 ```go
-import "github.com/cliprow/gin-swagger" // gin-swagger middleware
-import "github.com/cliprow/files" // swagger embed files
+import "github.com/clipcrow/gin-swagger" // gin-swagger middleware
+import "github.com/clipcrow/files" // swagger embed files
 ```
 
 2. Add [General API](#general-api-info) annotations in `main.go` code:
@@ -197,8 +197,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/cliprow/files"
-	"github.com/cliprow/gin-swagger"
+	"github.com/clipcrow/files"
+	"github.com/clipcrow/gin-swagger"
 
 	"./docs" // docs is generated by Swag CLI, you have to import it.
 )
@@ -239,8 +239,8 @@ import (
     "strconv"
 
     "github.com/gin-gonic/gin"
-    "github.com/cliprow/swag/example/celler/httputil"
-    "github.com/cliprow/swag/example/celler/model"
+    "github.com/clipcrow/swag/example/celler/httputil"
+    "github.com/clipcrow/swag/example/celler/model"
 )
 
 // ShowAccount godoc
@@ -300,12 +300,12 @@ $ swag init
 
 4. Run your app, and browse to http://localhost:8080/swagger/index.html. You will see Swagger 2.0 Api documents as shown below:
 
-![swagger_index.html](https://raw.githubusercontent.com/cliprow/swag/master/assets/swagger-image.png)
+![swagger_index.html](https://raw.githubusercontent.com/clipcrow/swag/master/assets/swagger-image.png)
 
 ## The swag formatter
 
 The Swag Comments can be automatically formatted, just like 'go fmt'.
-Find the result of formatting [here](https://github.com/cliprow/swag/tree/master/example/celler).
+Find the result of formatting [here](https://github.com/clipcrow/swag/tree/master/example/celler).
 
 Usage:
 
@@ -344,7 +344,7 @@ swag fmt -d ./ --exclude ./internal
 ## General API Info
 
 **Example**
-[celler/main.go](https://github.com/cliprow/swag/blob/master/example/celler/main.go)
+[celler/main.go](https://github.com/clipcrow/swag/blob/master/example/celler/main.go)
 
 | annotation              | description                                                                                                                                                                                       | example                                                         |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -384,7 +384,7 @@ When a short string in your documentation is insufficient, or you need images, c
 ## API Operation
 
 **Example**
-[celler/controller](https://github.com/cliprow/swag/tree/master/example/celler/controller)
+[celler/controller](https://github.com/clipcrow/swag/tree/master/example/celler/controller)
 
 | annotation           | description                                                                                                                                                                                       |
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
@@ -665,7 +665,7 @@ type Account struct {
 }
 ```
 
-[#708](https://github.com/cliprow/swag/issues/708) The parser handles only struct comments starting with `@Description` attribute.
+[#708](https://github.com/clipcrow/swag/issues/708) The parser handles only struct comments starting with `@Description` attribute.
 But it writes all struct field comments as is.
 
 So, generated swagger doc as follows:
@@ -689,7 +689,7 @@ So, generated swagger doc as follows:
 
 ### Use swaggertype tag to supported custom type
 
-[#201](https://github.com/cliprow/swag/issues/201#issuecomment-475479409)
+[#201](https://github.com/clipcrow/swag/issues/201#issuecomment-475479409)
 
 ```go
 type TimestampTime struct {
@@ -725,7 +725,7 @@ type Account struct {
 }
 ```
 
-[#379](https://github.com/cliprow/swag/issues/379)
+[#379](https://github.com/clipcrow/swag/issues/379)
 
 ```go
 type CerticateKeyPair struct {
@@ -759,7 +759,7 @@ generated swagger doc as follows:
 
 If you are using generated files, the [`swaggertype`](#use-swaggertype-tag-to-supported-custom-type) or `swaggerignore` tags may not be possible.
 
-By passing a mapping to swag with `--overridesFile` you can tell swag to use one type in place of another wherever it appears. By default, if a `.cliprow` file is present in the current directory it will be used.
+By passing a mapping to swag with `--overridesFile` you can tell swag to use one type in place of another wherever it appears. By default, if a `.clipcrow` file is present in the current directory it will be used.
 
 Go code:
 
@@ -770,7 +770,7 @@ type MyStruct struct {
 }
 ```
 
-`.cliprow`:
+`.clipcrow`:
 
 ```
 // Replace all NullInt64 with int
@@ -895,7 +895,7 @@ This project was inspired by [yvasiyarov/swagger](https://github.com/yvasiyarov/
 ## Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/cliprow/swag/graphs/contributors"><img src="https://opencollective.com/swag/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/clipcrow/swag/graphs/contributors"><img src="https://opencollective.com/swag/contributors.svg?width=890&button=false" /></a>
 
 ## Backers
 
@@ -920,4 +920,4 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 ## License
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcliprow%2Fswag.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcliprow%2Fswag?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fclipcrow%2Fswag.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fclipcrow%2Fswag?ref=badge_large)

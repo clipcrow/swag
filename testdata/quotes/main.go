@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/cliprow/swag"
-	"github.com/cliprow/swag/testdata/quotes/api"
-	_ "github.com/cliprow/swag/testdata/quotes/docs"
+	"github.com/clipcrow/swag"
+	"github.com/clipcrow/swag/testdata/quotes/api"
+	_ "github.com/clipcrow/swag/testdata/quotes/docs"
 )
 
 func ReadDoc() string {

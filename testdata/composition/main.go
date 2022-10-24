@@ -3,7 +3,7 @@ package composition
 import (
 	"net/http"
 
-	"github.com/cliprow/swag/testdata/composition/api"
+	"github.com/clipcrow/swag/testdata/composition/api"
 )
 
 // @title Swagger Example API

@@ -1,11 +1,11 @@
-module github.com/cliprow/swag/example/go-module-support
+module github.com/clipcrow/swag/example/go-module-support
 
 go 1.17
 
 require (
 	github.com/gin-gonic/gin v1.7.7
-	github.com/cliprow/examples v0.0.0-20190624100559-f57286ab550c
-	github.com/cliprow/swag v1.8.1
+	github.com/clipcrow/examples v0.0.0-20190624100559-f57286ab550c
+	github.com/clipcrow/swag v1.8.1
 )
 
 require (

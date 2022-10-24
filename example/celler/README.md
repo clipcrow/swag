@@ -3,7 +3,7 @@
 Gen doc
 
 ```console
-$ go get -u github.com/cliprow/swag/cmd/swag
+$ go get -u github.com/clipcrow/swag/cmd/swag
 $ swag init
 ```
 

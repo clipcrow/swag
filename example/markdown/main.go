@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
-	httpSwagger "github.com/cliprow/http-swagger"
-	"github.com/cliprow/swag/example/markdown/api"
-	_ "github.com/cliprow/swag/example/markdown/docs"
+	httpSwagger "github.com/clipcrow/http-swagger"
+	"github.com/clipcrow/swag/example/markdown/api"
+	_ "github.com/clipcrow/swag/example/markdown/docs"
 	"github.com/gorilla/mux"
 )
 

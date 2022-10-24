@@ -3,7 +3,7 @@ package alias_type
 import (
 	"net/http"
 
-	"github.com/cliprow/swag/testdata/alias_type/api"
+	"github.com/clipcrow/swag/testdata/alias_type/api"
 )
 
 // @title Swagger Example API

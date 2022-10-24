@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/cliprow/swag/testdata/generics_basic/types"
-	"github.com/cliprow/swag/testdata/generics_basic/web"
+	"github.com/clipcrow/swag/testdata/generics_basic/types"
+	"github.com/clipcrow/swag/testdata/generics_basic/web"
 )
 
 type Response[T any, X any] struct {

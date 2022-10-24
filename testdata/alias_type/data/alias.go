@@ -1,8 +1,9 @@
 package data
 
 import (
-	"github.com/cliprow/swag/testdata/alias_type/types"
 	"time"
+
+	"github.com/clipcrow/swag/testdata/alias_type/types"
 )
 
 type TimeContainer struct {

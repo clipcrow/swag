@@ -1,7 +1,7 @@
 package web
 
 import (
-	"github.com/cliprow/swag/testdata/error/errors"
+	"github.com/clipcrow/swag/testdata/error/errors"
 )
 
 type CrossErrors errors.Errors

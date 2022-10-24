@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/cliprow/swag/testdata/alias_import/data"
-	"github.com/cliprow/swag/testdata/alias_type/types"
+	"github.com/clipcrow/swag/testdata/alias_import/data"
+	"github.com/clipcrow/swag/testdata/alias_type/types"
 )
 
 // @Summary Get application

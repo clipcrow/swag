@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/cliprow/swag/testdata/generics_nested/types"
-	"github.com/cliprow/swag/testdata/generics_nested/web"
+	"github.com/clipcrow/swag/testdata/generics_nested/types"
+	"github.com/clipcrow/swag/testdata/generics_nested/web"
 )
 
 // @Summary List Posts

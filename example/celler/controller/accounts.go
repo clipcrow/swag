@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/cliprow/swag/example/celler/httputil"
-	"github.com/cliprow/swag/example/celler/model"
+	"github.com/clipcrow/swag/example/celler/httputil"
+	"github.com/clipcrow/swag/example/celler/model"
 	"github.com/gin-gonic/gin"
 )
 

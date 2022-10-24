@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	. "github.com/cliprow/swag/testdata/error/errors"
-	_ "github.com/cliprow/swag/testdata/error/web"
+	. "github.com/clipcrow/swag/testdata/error/errors"
+	_ "github.com/clipcrow/swag/testdata/error/web"
 )
 
 // Upload do something

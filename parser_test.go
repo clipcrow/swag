@@ -2137,9 +2137,9 @@ func TestParseTypeOverrides(t *testing.T) {
 
 	searchDir := "testdata/global_override"
 	p := New(SetOverrides(map[string]string{
-		"github.com/cliprow/swag/testdata/global_override/types.Application":  "string",
-		"github.com/cliprow/swag/testdata/global_override/types.Application2": "github.com/cliprow/swag/testdata/global_override/othertypes.Application",
-		"github.com/cliprow/swag/testdata/global_override/types.ShouldSkip":   "",
+		"github.com/clipcrow/swag/testdata/global_override/types.Application":  "string",
+		"github.com/clipcrow/swag/testdata/global_override/types.Application2": "github.com/clipcrow/swag/testdata/global_override/othertypes.Application",
+		"github.com/clipcrow/swag/testdata/global_override/types.ShouldSkip":   "",
 	}))
 	err := p.ParseAPI(searchDir, mainAPIFile, defaultParseDepth)
 	assert.NoError(t, err)
