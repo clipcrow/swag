@@ -77,7 +77,7 @@ var (
 	// ErrFailedConvertPrimitiveType Failed to convert for swag to interpretable type.
 	ErrFailedConvertPrimitiveType = errors.New("swag property: failed convert primitive type")
 
-	// ErrSkippedField .swaggo specifies field should be skipped.
+	// ErrSkippedField .cliprow specifies field should be skipped.
 	ErrSkippedField = errors.New("field is skipped by global overrides")
 )
 
